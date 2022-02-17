@@ -1,4 +1,4 @@
-public class even {
+public class odd {
     public static void main (String [] args) {
         int [] nums = new int[4];
         nums[0] = 1;
@@ -6,9 +6,9 @@ public class even {
         nums[2] = 3;
         nums[3] = 4;
 
-        //sysout prints even number
+        //sysout prints odd number
         for(int num : nums) {
-            if(num %2 == 0) {
+            if(num %2 != 0) {
                 System.out.println(num);
             }
         }
